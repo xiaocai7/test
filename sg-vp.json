@@ -1,19 +1,22 @@
 [
-        {
-          "beepStart": true,
-          "format": "mp3",
-          "action": "record"
-        },
-        {
-          "from": "86531388107",
-          "eventType": "synchronous",
-          "timeout": 30,
-          "endpoint": [
-            {
-              "number": "6597460794",
-              "type": "phone"
-            }
-          ],
-          "action": "connect"
-        }
-      ]
+          {
+            "action": "talk",
+            "bargeIn": false,
+            "language": null,
+            "style": 0,
+            "text": "<speak><break time='3s' /></speak>",
+            "premium": false,
+            "level": 1,
+            "loop": 1
+          },
+          {
+            "level": 1,
+            "loop": 3,
+            "action": "talk",
+            "bargeIn": false,
+            "language": null,
+            "style": 0,
+            "text": "Seu código de verificação é  3 7 8 1 , válido por 5 minutos. Para manter sua conta em segurança, nunca encaminhe este código.",
+            "premium": false
+          }
+        ]
