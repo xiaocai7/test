@@ -1,22 +1,34 @@
-[
+ [
           {
+            "style": 6,
+            "text": "Hi! Welcome to ScottishPower. You can speak with one of our agents by typing the \"hash\" key at any time. To help you we’ll need your account number which you can find on any letter or email from ScottishPower.\n\n",
+            "premium": false,
+            "level": 0,
+            "loop": 1,
             "action": "talk",
             "bargeIn": false,
-            "language": null,
-            "style": 0,
-            "text": "<speak><break time='3s' /></speak>",
-            "premium": false,
-            "level": 1,
-            "loop": 1
+            "language": "en-GB"
           },
           {
-            "level": 1,
-            "loop": 3,
-            "action": "talk",
-            "bargeIn": false,
-            "language": null,
-            "style": 0,
-            "text": "Seu código de verificação é  3 7 8 1 , válido por 5 minutos. Para manter sua conta em segurança, nunca encaminhe este código.",
-            "premium": false
+            "payload": {
+              "conversationId": "1b521bb288fab914cda81cccca6154872f42b2a1",
+              "UUID": "b2313abd9b54eea4b9d610fc6613fa15",
+              "hash": "fcc37e767712aa8ed841960cd60e7376",
+              "nexmoPhone": "34934458379"
+            },
+            "eventUrl": [
+              "https://api-calls-vonage.imbee.me/api/v1/calls/notify-ncco"
+            ],
+            "eventMethod": "POST",
+            "action": "notify"
+          },
+          {
+            "streamUrl": [
+              "https://s3.eu-west-3.amazonaws.com/static.imbee.xyz/silence.mp3"
+            ],
+            "level": 0,
+            "loop": 1,
+            "action": "stream",
+            "bargeIn": false
           }
         ]
