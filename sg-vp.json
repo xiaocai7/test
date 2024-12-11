@@ -1,3 +1,26 @@
-[  
- {  "action": "talk",  "bargeIn": false,  "language": "en-GB",  "style": 6,  "text": "\nPlease now tell us your account number.\n\n\n\n",  "premium": false,  "level": 0,  "loop": 1  },  {  "action": "input"  }  
-]
+{
+   "ncco": [
+      {
+         "action": "talk",
+         "text": "Hello World this is a call from Vonage"
+      }
+   ],
+   "to": [
+      {
+         "type": "phone",
+         "number": "6597460794"
+      }
+   ],
+   "from": {
+      "type": "phone",
+      "number": "14155550100"
+   },
+   "random_from_number": false,
+   "event_url": [
+      "https://webhook.site/469e611d-8ef7-4315-8450-ea125c4bc9ce"
+   ],
+   "event_method": "POST",
+   "machine_detection": "continue",
+   "length_timer": 7200,
+   "ringing_timer": 60
+}
