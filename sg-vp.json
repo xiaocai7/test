@@ -1,22 +1,8 @@
-{
-   "ncco": [
-       {
-         "style": "0",
-         "text": "こんにちは",
-         "premium": false,
-         "action": "talk",
-         "language": "ja-JP"
-       },
-       {
-         "action": "connect",
-         "from": "81345418443",
-         "timeout": 20,
-         "endpoint": [
-           {
-             "number": "6597460794",
-             "type": "phone"
-           }
-         ]
-       }
-     ]
-}
+[
+  {
+    "action": "conversation",
+    "name": "Test App",
+    "record": false
+    }
+  }
+]
