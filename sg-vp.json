@@ -1,18 +1,7 @@
 [
     {
-    	"action":"record", 
-    	"format": "wav", 
-    	"split": "conversation", 
-    	"channels": 2,
-    	"eventUrl": 
-	[
-                "https://webhook-test.com/?address=728d2981a64362db9b7e779acb13d443"
-	]
-        
-    }, 
-    {
         "action": "talk", 
         "text": "Connecting you to 18002211212"
         
     }
-    ]
+]
