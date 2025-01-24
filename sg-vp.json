@@ -1,11 +1,29 @@
 [
     {
-    "action":"record", 
-    "format": "wav", 
-    "split": "conversation", 
-    "channels": 2,
-    "eventUrl": [
-                "http://vonage.dev.shujiajia.com/voice/event"]
+    	"action":"record", 
+    	"format": "wav", 
+    	"split": "conversation", 
+    	"channels": 2,
+    	"eventUrl": 
+	[
+                "https://webhook-test.com/?address=728d2981a64362db9b7e779acb13d443"
+	]
         
+    }, 
+    {
+        "action": "talk", 
+        "text": "Connecting you to 18002211212"
+        
+    },
+    {
+        "action": "connect", 
+        "from": "12053508500", 
+        "endpoint": 
+        [
+            {
+		"type": "phone", 
+            	"number": "18002211212"
+		}
+        ]
     }
-]
+    ]
