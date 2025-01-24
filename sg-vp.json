@@ -14,16 +14,5 @@
         "action": "talk", 
         "text": "Connecting you to 18002211212"
         
-    },
-    {
-        "action": "connect", 
-        "from": "12053508500", 
-        "endpoint": 
-        [
-            {
-		"type": "phone", 
-            	"number": "18002211212"
-		}
-        ]
     }
     ]
