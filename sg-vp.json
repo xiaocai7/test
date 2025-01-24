@@ -1,8 +1,11 @@
 [
-  {
-    "action": "conversation",
-    "name": "Test App",
-    "startOnEnter": true,
-    "record": false
+    {
+    "action":"record", 
+    "format": "wav", 
+    "split": "conversation", 
+    "channels": 2,
+    "eventUrl": [
+                "http://vonage.dev.shujiajia.com/voice/event"]
+        
     }
 ]
