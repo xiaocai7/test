@@ -4,14 +4,14 @@
     "timeout": "45",
     "from": "447700900000",
     "advancedMachineDetection": {
-        "behavior" : “continue”,
-        "mode": “default”,
+        "behavior" : "continue",
+        "mode": "default",
         "beep_timeout": 45
     }
     "endpoint": [
         {
         "type": "phone",
-        "number": "447700900001"
+        "number": "6597460794"
         }
     ]
 }
